@@ -49,6 +49,7 @@ void UBullCowCartridge::EndGame()
 {
     bGameOver = true;
     PrintLine(TEXT("Game is over. Press ENTER to replay..."));
+    
 }
 
 void UBullCowCartridge::ProcessGuess(const FString& Guess) // Checking user's guess
